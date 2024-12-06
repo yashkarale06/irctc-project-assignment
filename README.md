@@ -18,9 +18,13 @@ JWT_SECRET_KEY = 'your-secret-key'  # Set your own secret key for JWT
 
 
 3.run the migrate db command 
-flask db init
-flask db migrate -m "Initial migration"
-flask db upgrade
+"flask db init"
+
+
+"flask db migrate -m "Initial migration""
+
+
+"flask db upgrade"
 
 run these 3 caommand so this will create the neccessary tables in your db
 
